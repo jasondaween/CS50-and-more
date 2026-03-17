@@ -1,0 +1,42 @@
+2026-03-02 00:28:37.935 [error] Error while computing completions for file:///workspaces/C-Projects/homepage/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1493206)
+    at /vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1063124
+    at Y (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1063136)
+    at V.computeCompletions (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1061391)
+    at Z.doComplete2 (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1064037)
+    at doComplete (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/573.htmlServerMain.js:1:13186)
+    at /vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/573.htmlServerMain.js:1:41760
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:453:9)
+2026-03-02 00:28:38.996 [error] Error while computing completions for file:///workspaces/C-Projects/homepage/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1493206)
+    at /vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1063124
+    at Y (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1063136)
+    at V.computeCompletions (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1061391)
+    at Z.doComplete2 (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1064037)
+    at doComplete (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/573.htmlServerMain.js:1:13186)
+    at /vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/573.htmlServerMain.js:1:41760
+2026-03-02 00:28:42.073 [error] Error while computing completions for file:///workspaces/C-Projects/homepage/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1493206)
+    at /vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1063124
+    at Y (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1063136)
+    at V.computeCompletions (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1061391)
+    at Z.doComplete2 (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1064037)
+    at doComplete (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/573.htmlServerMain.js:1:13186)
+    at /vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/573.htmlServerMain.js:1:41760
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:453:9)
+2026-03-02 00:28:43.306 [error] Error while computing completions for file:///workspaces/C-Projects/homepage/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1493206)
+    at /vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1063124
+    at Y (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1063136)
+    at V.computeCompletions (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1061391)
+    at Z.doComplete2 (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1064037)
+    at doComplete (/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/573.htmlServerMain.js:1:13186)
+    at /vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/html-language-features/server/dist/node/573.htmlServerMain.js:1:41760
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:453:9)

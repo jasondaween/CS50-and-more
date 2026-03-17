@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <style>
+            button:hover {
+                background-color: darkgray;
+            }
+        </style>
+        <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        document.querySelector('#a').addEventListener('click', function() {
+                            this.style.backgroundColor = 'red';
+                            document.querySelector('#text').innerHTML = 'Incorrect';
+                        });
+                        document.querySelector('#b').addEventListener('click', function() {
+                            this.style.backgroundColor = 'green';
+                            document.querySelector('#text').innerHTML = 'Correct!';
+                        });
+                        document.querySelector('#c').addEventListener('click', function() {
+                            this.style.backgroundColor = 'red';
+                            document.querySelector('#text').innerHTML = 'Incorrect';
+                        });
+                        document.querySelector('#d').addEventListener('click', function() {
+                            this.style.backgroundColor = 'red';
+                            document.querySelector('#text').innerHTML = 'Incorrect';
+                        });
+                        document.querySelector('#e').addEventListener('click', function() {
+                            this.style.backgroundColor = 'red';
+                            document.querySelector('#text').innerHTML = 'Incorrect';
+                        });
+
+                        document.querySelector('#check').addEventListener('click', function())
+                    });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <h3>What is 67 + 67? </h3>
+                <button id="a">67</button>
+                <button id="b">134</button>
+                <button id="c">69</button>
+                <button id="d">13</button>
+                <button id="e">124</button>
+
+                <p id ="text"></p>
+                
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <h3>What is the funniest number?</h3>
+                <form>
+                    <input autocompletes="off" type="number" id="answer">
+                    <button id="check">Check Answer</button>
+                </form>
+
+                <p id ="text2"></p>
+                <hr>
+                <!-- TODO: Add free response question here -->
+            </div>
+        </div>
+    </body>
+</html>

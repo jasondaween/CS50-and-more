@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <style>
+            button:hover {
+                background-color: darkgray;
+            }
+        </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                let button = event.target;
+                function CheckMultipleChoice(event) {
+                    if (button.innerHTML == '134') {
+                        button.style.backgroundColor = 'Green';
+                        button.parentElement.querySelector('.feedback').innerHTML = 'Correct!';
+                    }
+                    else {
+                        button.style.backgroundColor = 'Red';
+                        button.parentElement.querySelector('.feedback').innerHTML = 'Incorrect';
+                    }
+                }
+
+                function CheckFreeResponse(event) {
+                    let input = button.parentElement.querySelector('input');
+                    if (input.value == '67') {
+                        button.style.backgroundColor = 'Green';
+                        button.parentElement.querySelector('.feedback').innerHTML = 'Correct';
+                    }
+                    else {
+                        button.style.backgroundColor = 'Red';
+                        button.parentElement.querySelector('.feedback').innerHTML = 'Incorrect';
+                    }
+                }
+                
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <h3>What is 67 + 67? </h3>
+                <button onClick="CheckMultipleChoice(event)">67</button>
+                <button onClick="CheckMultipleChoice(event)">134</button>
+                <button onClick="CheckMultipleChoice(event)">69</button>
+                <button onClick="CheckMultipleChoice(event)">13</button>
+                <button onClick="CheckMultipleChoice(event)">124</button>
+
+                <p class="feedback"></p>
+                
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <h3>What is the funniest number?</h3>
+                <form>
+                    <input autocompletes="off" type="number" id="answer">
+                    <button id="check" type="button">Check Answer</button>
+                </form>
+
+                <p class="feedback"></p>
+                <hr>
+                <!-- TODO: Add free response question here -->
+            </div>
+        </div>
+    </body>
+</html>

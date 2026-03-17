@@ -1,0 +1,61 @@
+2026-03-02 02:46:21.606 [trace] Remote configuration data at /home/codespace/.vscode-remote
+2026-03-02 02:46:21.606 [trace] process arguments: {"_":[],"host":"127.0.0.1","port":"0","connection-token-file":"/home/codespace/.vscode-remote/data/Machine/.connection-token-072586267e68ece9a47aa43f8c108e0dcbf44622","without-connection-token":false,"disable-websocket-compression":false,"print-startup-performance":false,"print-ip-address":false,"accept-server-license-terms":true,"server-data-dir":"/home/codespace/.vscode-remote","enable-smoke-test-driver":false,"disable-telemetry":false,"disable-experiments":false,"disable-workspace-trust":false,"log":["trace"],"force-disable-user-env":true,"enable-sync":false,"use-test-resolver":false,"extensions-download-dir":"/home/codespace/.vscode-remote/extensionsCache","update-extensions":false,"list-extensions":false,"show-versions":false,"force":false,"do-not-sync":false,"do-not-include-pack-dependencies":false,"pre-release":false,"start-server":true,"enable-remote-auto-shutdown":true,"remote-auto-shutdown-without-delay":false,"use-host-proxy":false,"without-browser-env-var":false,"help":false,"version":false,"user-data-dir":"/home/codespace/.vscode-remote/data","builtin-extensions-dir":"/vscode/bin/linux-x64/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions","extensions-dir":"/home/codespace/.vscode-remote/extensions","logsPath":"/home/codespace/.vscode-remote/data/logs/20260302T024621"}
+2026-03-02 02:46:21.606 [info] 
+
+
+
+
+2026-03-02 02:46:21.606 [trace] [File Watcher (node.js)] Request to start watching: /home/codespace/.vscode-remote/data/Machine (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/codespace/.vscode-remote/data/Machine/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2026-03-02 02:46:21.611 [trace] [File Watcher (node.js)] Started watching: '/home/codespace/.vscode-remote/data/Machine'
+2026-03-02 02:46:21.640 [trace] ExtensionManagementService#cleanUp
+2026-03-02 02:46:21.641 [trace] ExtensionManagementService#removeTempDeleteFolders
+2026-03-02 02:46:21.648 [info] Extension host agent started.
+2026-03-02 02:46:21.769 [trace] [File Watcher (node.js)] Started watching: '/home/codespace/.vscode-remote/data/Machine/settings.json'
+2026-03-02 02:46:21.806 [trace] [File Watcher (node.js)] Request to start watching: /home/codespace/.vscode-remote/extensions (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2026-03-02 02:46:21.813 [trace] Deleting from cache /home/codespace/.vscode-remote/extensionsCache/ms-azuretools.vscode-docker-2.0.0
+2026-03-02 02:46:21.813 [trace] Deleting from cache /home/codespace/.vscode-remote/extensionsCache/dbaeumer.vscode-eslint-3.0.21
+2026-03-02 02:46:21.813 [trace] Deleting from cache /home/codespace/.vscode-remote/extensionsCache/ms-toolsai.jupyter-2025.10.2026010601
+2026-03-02 02:46:21.813 [trace] Deleting from cache /home/codespace/.vscode-remote/extensionsCache/vscjava.vscode-java-dependency-0.27.0
+2026-03-02 02:46:21.814 [trace] [File Watcher (node.js)] Started watching: '/home/codespace/.vscode-remote/extensions'
+2026-03-02 02:46:21.828 [trace] [File Watcher (node.js)] Request to start watching: /home/codespace/.vscode-remote/extensions/extensions.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2026-03-02 02:46:21.832 [debug] Deleting extensions marked as removed: ["github.copilot-chat-0.37.8"]
+2026-03-02 02:46:21.839 [trace] [File Watcher (node.js)] Started watching: '/home/codespace/.vscode-remote/extensions/extensions.json'
+2026-03-02 02:46:21.996 [trace] Deleting marked for removal extension from disk github.copilot-chat /home/codespace/.vscode-remote/extensions/github.copilot-chat-0.37.8
+2026-03-02 02:46:22.022 [trace] [File Watcher (node.js)] [raw] ["rename"] github.copilot-chat-0.37.8
+2026-03-02 02:46:22.022 [trace] [File Watcher (node.js)] [raw] ["rename"] github.copilot-chat-0.37.8.-65c73560.vsctmp
+2026-03-02 02:46:22.032 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2026-03-02 02:46:22.032 [trace] [File Watcher (node.js)] [CHANGED] /home/codespace/.vscode-remote/extensions/.obsolete
+2026-03-02 02:46:22.048 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2026-03-02 02:46:22.048 [trace] [File Watcher (node.js)] [CHANGED] /home/codespace/.vscode-remote/extensions/.obsolete
+2026-03-02 02:46:22.078 [trace] [File Watcher (node.js)] [raw] ["rename"] github.copilot-chat-0.37.8.-65c73560.vsctmp
+2026-03-02 02:46:22.079 [info] Deleted marked for removal extension from disk github.copilot-chat /home/codespace/.vscode-remote/extensions/github.copilot-chat-0.37.8
+2026-03-02 02:46:22.080 [trace] [File Watcher (node.js)] [raw] ["rename"] .obsolete
+2026-03-02 02:46:22.110 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] /home/codespace/.vscode-remote/extensions/.obsolete
+2026-03-02 02:46:22.123 [trace] [File Watcher (node.js)] [DELETED] /home/codespace/.vscode-remote/extensions/github.copilot-chat-0.37.8
+2026-03-02 02:46:22.180 [trace] [File Watcher (node.js)] [DELETED] /home/codespace/.vscode-remote/extensions/github.copilot-chat-0.37.8.-65c73560.vsctmp
+2026-03-02 02:46:22.180 [trace] [File Watcher (node.js)] [DELETED] /home/codespace/.vscode-remote/extensions/.obsolete
+2026-03-02 02:46:22.196 [info] [127.0.0.1][4ec28ba5][ManagementConnection] New connection established.
+2026-03-02 02:46:22.198 [trace] [File Watcher (node.js)]  >> normalized [DELETED] /home/codespace/.vscode-remote/extensions/.obsolete
+2026-03-02 02:46:22.198 [trace] [File Watcher (node.js)]  >> normalized [DELETED] /home/codespace/.vscode-remote/extensions/github.copilot-chat-0.37.8
+2026-03-02 02:46:22.198 [trace] [File Watcher (node.js)]  >> normalized [DELETED] /home/codespace/.vscode-remote/extensions/github.copilot-chat-0.37.8.-65c73560.vsctmp
+2026-03-02 02:46:22.250 [trace] [127.0.0.1][5130c574][ExtensionHostConnection] - startParams language: en
+2026-03-02 02:46:22.250 [trace] [127.0.0.1][5130c574][ExtensionHostConnection] - startParams env: {}
+2026-03-02 02:46:22.253 [info] [127.0.0.1][5130c574][ExtensionHostConnection] New connection established.
+2026-03-02 02:46:22.253 [trace] resolveShellEnv(): skipped (--force-disable-user-env)
+2026-03-02 02:46:22.254 [trace] [reconnection-grace-time] Setting VSCODE_RECONNECTION_GRACE_TIME env var for extension host: 10800000ms (10800s)
+2026-03-02 02:46:22.266 [info] [127.0.0.1][5130c574][ExtensionHostConnection] <611> Launched Extension Host Process.
+2026-03-02 02:46:22.412 [trace] [reconnection-grace-time] Server sending grace time to client: 10800000ms (10800s)
+2026-03-02 02:46:22.420 [trace] ExtensionManagementService.updateControlCache
+2026-03-02 02:46:22.421 [trace] Started scanning system extensions
+2026-03-02 02:46:22.424 [trace] Started scanning user extensions {"$mid":1,"fsPath":"/home/codespace/.vscode-remote/extensions/extensions.json","external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"}
+2026-03-02 02:46:22.427 [trace] Started scanning user extensions {"$mid":1,"fsPath":"/home/codespace/.vscode-remote/extensions/extensions.json","external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"}
+2026-03-02 02:46:22.428 [trace] Scanning extensions using UI language: en
+2026-03-02 02:46:22.438 [trace] resolveShellEnv(): skipped (--force-disable-user-env)
+2026-03-02 02:46:22.439 [trace] Started scanning system extensions
+2026-03-02 02:46:22.439 [trace] Started scanning user extensions {"$mid":1,"fsPath":"/home/codespace/.vscode-remote/extensions/extensions.json","external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"}
+2026-03-02 02:46:22.441 [trace] #1: https://main.vscode-cdn.net/extensions/marketplace.json - begin GET {}
+2026-03-02 02:46:22.511 [trace] AbstractMcpResourceManagementService#populateLocalServers file:///home/codespace/.vscode-remote/data/User/mcp.json
+2026-03-02 02:46:22.515 [info] Log level changed to info
+2026-03-02 02:46:22.820 [info] [127.0.0.1][5130c574][ExtensionHostConnection] <611> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-03-02 02:51:21.649 [info] New EH opened, aborting shutdown

@@ -1,0 +1,45 @@
+2026-03-02 02:46:32.546 [info] [main] Log level: Info
+2026-03-02 02:46:32.546 [info] [main] Validating found git in: "git"
+2026-03-02 02:46:32.546 [info] [main] Using git "2.52.0" from "git"
+2026-03-02 02:46:32.546 [info] [Model][doInitialScan] Initial repository scan started
+2026-03-02 02:46:32.547 [info] > git rev-parse --show-toplevel [472ms]
+2026-03-02 02:46:32.547 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [30ms]
+2026-03-02 02:46:32.831 [info] [Model][openRepository] Opened repository (path): /workspaces/C-Projects
+2026-03-02 02:46:32.831 [info] [Model][openRepository] Opened repository (real path): /workspaces/C-Projects
+2026-03-02 02:46:32.831 [info] [Model][openRepository] Opened repository (kind): repository
+2026-03-02 02:46:33.301 [info] > git rev-parse --show-toplevel [299ms]
+2026-03-02 02:46:33.303 [info] > git config --get commit.template [334ms]
+2026-03-02 02:46:33.414 [info] > git rev-parse --show-toplevel [87ms]
+2026-03-02 02:46:33.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [103ms]
+2026-03-02 02:46:33.473 [info] > git rev-parse --show-toplevel [39ms]
+2026-03-02 02:46:33.534 [info] > git rev-parse --show-toplevel [45ms]
+2026-03-02 02:46:33.628 [info] > git status -z -uall [60ms]
+2026-03-02 02:46:33.630 [info] > git rev-parse --show-toplevel [13ms]
+2026-03-02 02:46:33.631 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [34ms]
+2026-03-02 02:46:33.905 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [177ms]
+2026-03-02 02:46:33.971 [info] > git check-ignore -v -z --stdin [15ms]
+2026-03-02 02:46:33.973 [info] > git config --get --local branch.main.vscode-merge-base [47ms]
+2026-03-02 02:46:34.001 [info] > git config --get commit.template [186ms]
+2026-03-02 02:46:34.001 [info] > git rev-parse --show-toplevel [223ms]
+2026-03-02 02:46:34.007 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-03-02 02:46:34.040 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [40ms]
+2026-03-02 02:46:34.221 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [164ms]
+2026-03-02 02:46:34.221 [info] > git merge-base refs/heads/main refs/remotes/origin/main [174ms]
+2026-03-02 02:46:34.248 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 71180f2965edd71d2fbd4ecada0bb4290213be6f...refs/remotes/origin/main -- [18ms]
+2026-03-02 02:46:34.281 [info] > git status -z -uall [17ms]
+2026-03-02 02:46:34.313 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [41ms]
+2026-03-02 02:46:34.394 [info] > git config --local -l [81ms]
+2026-03-02 02:46:34.654 [info] > git config --local -l [146ms]
+2026-03-02 02:46:34.654 [info] > git config --local -l [160ms]
+2026-03-02 02:46:34.655 [info] > git config --local -l [172ms]
+2026-03-02 02:46:34.655 [info] > git config --local -l [187ms]
+2026-03-02 02:46:34.851 [info] > git check-ignore -v -z --stdin [10ms]
+2026-03-02 02:46:34.999 [info] > git show --textconv :trivia/index.html [33ms]
+2026-03-02 02:46:34.999 [info] > git ls-files --stage -- trivia/index.html [20ms]
+2026-03-02 02:46:35.024 [info] > git cat-file -s 08cea3334149dc5f83aad2eab19c51fa010063f9 [7ms]
+2026-03-02 02:46:35.352 [info] > git config --local -l [15ms]
+2026-03-02 02:46:35.377 [info] > git config --local -l [60ms]
+2026-03-02 02:46:35.377 [info] > git config --local -l [66ms]
+2026-03-02 02:46:35.378 [info] > git config --local -l [76ms]
+2026-03-02 02:46:35.378 [info] > git config --local -l [84ms]
+2026-03-02 02:46:35.697 [info] > git check-ignore -v -z --stdin [16ms]

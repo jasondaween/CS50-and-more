@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Confirm {{ action }}
+{% endblock %}
+
+{% block main %}
+
+    <h1>{{ action }} confirmation</h1>
+
+    <p>{{ action }} {{ shares }} of {{ stock.name }} at {{ stock.price | usd }} each?</p>
+
+    {% if action == "Buy" %}
+
+        <form action="/buy/confirmation" method="post">
+            <input type="hidden" name="symbol" value="{{ stock.symbol }}">
+            <input type="hidden" name="shares" value="{{ shares }}">
+
+            <button class="btn btn-primary" type="submit">Submit Order</button>
+            <a href="/buy" class="btn btn-primary">Cancel</a>
+        </form>
+
+    {% elif action == "Sell" %}
+
+        <form action="/sell/confirmation" method="post">
+            <input type="hidden" name="symbol" value="{{ stock.symbol}}">
+            <input type="hidden" name="shares" value="{{ shares }}">
+
+            <button class="btn btn-primary" type="submit">Submit Order</button>
+            <a href="/sell" class="btn btn-primary">Cancel</a>
+        </form>
+    
+    {% endif %}
+
+{% endblock %}
